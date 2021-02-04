@@ -128,7 +128,7 @@ a {
 		left: 50%;
 		max-width: 500px;
 		box-shadow: -17px 10px 34px -18px rgba(0,0,0,0.5);
-		@include media-breakpoint-down(sm) {
+		@include media-breakpoint-down(md) {
 			position: relative;
 			left: inherit!important;
 			top: inherit!important;
@@ -147,7 +147,7 @@ a {
 			left: -40%;
 			z-index: 1;
 			max-width: 500px;
-			@include media-breakpoint-down(sm) {
+			@include media-breakpoint-down(md) {
 				position: relative;
 				left: inherit!important;
 				top: inherit!important;
